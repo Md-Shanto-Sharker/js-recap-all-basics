@@ -40,7 +40,15 @@ const computer = {
     processor:'intel',
     hdd:'512gb'
 }
-const key = Object.keys(computer);
-const value = Object.values(computer);
-console.log(key);
-console.log(value);
+// const key = Object.keys(computer);
+// const value = Object.values(computer);
+// console.log(key);
+// console.log(value);
+
+for(let i in computer){
+    console.log(i);    
+    console.log(computer[i]);    
+
+}
+// console.log(Object.values(computer));
+// console.log(Object.keys(computer));
