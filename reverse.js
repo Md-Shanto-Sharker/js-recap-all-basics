@@ -25,9 +25,22 @@ const sentence = 'I am learning Web Dev.';
 
 // short cut
 
-let reverse = sentence.split('');
-console.log(reverse);
-let result = reverse.reverse();
-console.log(result);
-let result2= result.join('');
-console.log(result2);
+// let reverse = sentence.split('');
+// console.log(reverse);
+// let result = reverse.reverse();
+// console.log(result);
+// let result2= result.join('');
+// console.log(result2);
+
+
+// object??????????
+const computer = {
+    brand :'lenovo',
+    price : 35000,
+    processor:'intel',
+    hdd:'512gb'
+}
+const key = Object.keys(computer);
+const value = Object.values(computer);
+console.log(key);
+console.log(value);
